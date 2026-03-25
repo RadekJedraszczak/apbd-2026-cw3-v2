@@ -2,14 +2,10 @@ namespace ConsoleRentApp;
 
 public class Camera : Stuff
 {
-    public Camera(String stuffName, int cost,
+    public Camera(String itemName, int cost,
         String condition, String brand, String lensData) 
-        : base(stuffName, cost, condition, brand)
+        : base(itemName, cost, condition, brand)
     {
-        this.stuffName = stuffName;
-        this.cost = cost;
-        this.condition = condition;
-        this.brand = brand;
         this.lensData =  lensData;
     }
     

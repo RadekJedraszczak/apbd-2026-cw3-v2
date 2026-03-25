@@ -2,13 +2,10 @@ namespace ConsoleRentApp;
 
 public class Projector : Stuff
 {
-    public Projector(String stuffName, int cost, String condition, String brand, String type) 
-        : base(stuffName, cost, condition,brand)
+    public Projector(String itemName, int cost, String condition, String brand, String type) 
+        : base(itemName, cost, condition,brand)
     {
-        this.stuffName = stuffName; 
-        this.cost = cost;
-        this.condition = condition;
-        this.brand = brand;
+        
         this.type = type;
     }
     
