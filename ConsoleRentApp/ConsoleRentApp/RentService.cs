@@ -14,6 +14,7 @@ public class RentService
         Users.Add(new Employee("Anna", "Nowak", "IT"));
 
         Items.Add(new Laptop("ThinkPad", "Lenovo", 14, 16));
+        Items.Add(new Laptop("MacBook_M2", "Apple", 16, 16));
         Items.Add(new Camera("EOS", "Canon", "50mm", true));
         Items.Add(new Projector("W1000", "BenQ", "1080p", 2000));
     }
